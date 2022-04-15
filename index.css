@@ -1,0 +1,56 @@
+.gmap_canvas 
+{
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+.mapouter
+{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+#container{
+    background-color: rgba(255, 255, 255, 0.388); 
+    /* border: 3px solid rgba(135, 135, 135, 0.683);  */
+}
+
+#mainbox{
+     display: flex ; 
+     justify-content: space-around ;
+}
+
+body{
+    background-image: url("https://hdqwalls.com/wallpapers/rainy-day-person-with-umbrella-5k-dx.jpg") ; 
+    /* display: flex ;  */
+    background-size: cover ;
+  
+}
+
+#btn{
+    height:30px;
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    opacity: 0.7;
+    cursor:pointer;
+    color:black
+
+}
+#btn:hover{
+    background-color:white
+   
+}
+#maps_input{
+    height:30px;
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    opacity: 0.7;
+    cursor: pointer;
+    color:white;
+}
+#maps_input:hover{
+   background-color:white
+}
+ 
